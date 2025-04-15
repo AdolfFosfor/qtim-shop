@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+    --color-main: rgba(213, 135, 85, 1);
+    --color-dark: rgb(19, 19, 21);
+}
+
+* {
+    font-family: 'Wix Madefor Display', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color: var(--color-dark);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.font-alt {
+    font-family: 'Atma', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+::-moz-selection {
+  background: rgba(213, 135, 85, 0.2);
+}
+
+::selection {
+    background: rgba(213, 135, 85, 0.2);
+}
